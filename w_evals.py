@@ -172,9 +172,9 @@ def evaluate_models(folder_path, ground_truths, output_path):
         print("\nAll evaluations completed. Results saved to:", output_path)
 
 # Main execution
-folder_path = r"C:\Users\Demir\Desktop\CI and CPSC\CI FALL 2024\1 image"
-ground_truths_path = r"C:\Users\Demir\Desktop\CI and CPSC\CI FALL 2024\ci final\ground_truths.json"
-output_path = r"C:\code\CI\model_evaluation_results.txt"
+folder_path = r"PATH"
+ground_truths_path = r"PATH"
+output_path = r"PATH"
 
 with open(ground_truths_path, "r", encoding="utf-8") as f:
     ground_truths = json.load(f)
