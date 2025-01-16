@@ -140,7 +140,7 @@ def process_images(folder_path, model_key, output_file=None):
 
 # Run all models sequentially
 def run_all_models(folder_path):
-    output_file = os.path.join(r"C:\Users\Demir\Desktop\CI and CPSC\CI FALL 2024\output text", "all_models_output2.0.txt")
+    output_file = os.path.join(r"PATH", "PATH")
     if os.path.exists(output_file):
         os.remove(output_file)  # removes the old output file
     with open(output_file, "a", encoding="utf-8") as f:
@@ -151,7 +151,7 @@ def run_all_models(folder_path):
 
 
 # input folder where the car images are 
-folder_path = r"C:\Users\Demir\Desktop\CI and CPSC\CI FALL 2024\5 images"
+folder_path = r"PATH"
 
 # shows the options
 print("Choose a model:")
